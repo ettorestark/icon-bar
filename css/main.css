@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.icon-bar {
+	width: 100%;
+	background: #555;
+	overflow: auto;
+}
+
+	.icon-bar a {
+		float: left;
+		width: 20%;
+		text-align: center;
+		padding: .6em 0;
+		transition: all 0.3s ease;
+		color: #FFF;
+		font-size: 2em;
+	}
+
+		.icon-bar a:hover:not(.active) {
+			background: #000;
+		}
+
+.active {
+	background: #0077FF;
+}
